@@ -27,7 +27,7 @@
     Zoé PURSON-PASQUALINI | Etudiante en M2 Sciences des Données et Systèmes Complexes - Université de Strasbourg
   </title>
 
-  <meta name="description" content="Portfolio github Zoé PURSON-PASQUALINI">
+  <meta name="description" content="Portfolio de Zoé Purson-Pasqualini, étudiante en Master Sciences des Données, spécialisée en analyse de données et data science.">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="PURSON-PASQUALINI, IA, Data Sciences, Python, Pandas, TensorFlow, Machine Learning" />
   <link rel="stylesheet" href="index.css" />
@@ -41,14 +41,9 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">À propos</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -59,9 +54,13 @@
           <span>Zoé PURSON-PASQUALINI</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Actuellement en dernière année de Master Sciences des Données et Systèmes Complexes à l'Université de Strasbourg, je suis à la recherche d'un stage de fin d'étude orienté analyse et exploitation de données, dans un contexte métier concret. 
-            Curieuse rigoureuse et organisée, j'apprécie travailler sur des données réelles, collaborer avec des équipes aux profils variés et apprendre des méthodes métiers, tout en développant mes compétences techniques et analytiques.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Étudiante en dernière année de <strong>Master Sciences des Données et Systèmes Complexes</strong> à l’Université de Strasbourg, 
+          je recherche un <strong>stage de fin d’études en analyse et exploitation de données</strong>.
+        <br><br>
+        Je m’intéresse particulièrement à l’<strong>analyse de données complexes</strong> et l’<strong>exploitation de données</strong>, 
+        dans des contextes métier concrets.
+        </p>
+        <a href="#contact" class="btn btn--pink">Contactez moi</a>
       </div>
     </div>
   </header>
@@ -72,7 +71,7 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Projets</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
@@ -81,145 +80,107 @@
             <div class="work__text">
               <h3>Projet d'analyse de parties d'échecs en PySpark</h3>
               <p>
-                Projet réalisé en binôme dans le cadre de mes études, sur l'analyse de parties d'échecs issues de la base de données Lichess.
-              </p>
-              <a href="https://github.com/zoe-purson/Projet_Lichess/blob/6d68f9ceaf3e7b7b53718850c7d775e859d6a92c/Projet_Lichess_KEDACHE_PURSON_PASQUALINI.ipynb" title="Accès au notebook" target="_blank">
-                <img src="./images/github.svg" class="work__code" alt="GitHub">
-              </a>
+                Analyse de parties d’échecs issues de la base de données <strong>Lichess</strong>, 
+                réalisée en binôme dans un contexte académique.
+                <br><br>
+                Le projet visait à <strong>analyser des données volumineuses</strong>, 
+                extraire des indicateurs pertinents et explorer des patterns de jeu à l’aide d’outils Big Data.
+                </p>
+              <div class="work__links">
+                <a href="https://github.com/zoe-purson/Projet_Lichess/blob/6d68f9ceaf3e7b7b53718850c7d775e859d6a92c/Projet_Lichess_KEDACHE_PURSON_PASQUALINI.ipynb" title="Accès au notebook" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+                <a href="https://colab.research.google.com/drive/13DYAGh-10mL7z_jlqMWrcNmlLaRMPQzi?usp=sharing" title="Accès au notebook" target="_blank">
+                  <img src="./images/colab.svg" class="work__code" alt="Colaboratory">
+                </a>
+              </div>
               <ul class="work__list">
                 <li>Python</li>
                 <li>PySpark</li>
-                <li>pandas</li>
-                <li>Matplotlib</li>
+                <li>Analyse de données</li>
+                <li>Visualisation</li>
               </ul>
+              </div>
+              <div class="work__image-box">
+                <img src="./images/lichess.jpg" class="work__image" alt="Project 1" />
+              </div>
+            </div>
+          </div>
 
-              <!-- <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Projet d'analyse des paramètres des eaux</h3>
+              <p>
+                Analyse de paramètres physico-chimiques de prélèvements issues de <strong>stations de contrôle et surveillance (RCS) des eaux douces de surface</strong>
+                réalisée en binôme dans un contexte académique.
+                <br><br>
+                Le projet visait à répondre à la question <strong>"Quels sont les liens entre les différents paramètres, et peut-on définir des classes de qualité
+                  des stations en relation avec leur localisation géographiques ?"</strong>, différentes étapes ont été réalisées pour y répondre. 
+              </p>
+              <div class="work__links">
+                <a href="https://docs.google.com/document/d/1ybMgTmZ4ZXk0t-aBxAogNc4dW7vKqwwOuW1tC_u9V9o/edit?usp=sharing" title="Accès au rapport" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://colab.research.google.com/drive/1ZS4jdx2Zo17r1rnUr3BiV8cE-7_-4Rmy?usp=sharing" title="Accès au notebook" target="_blank">
+                  <img src="./images/colab.svg" class="work__code" alt="Colaboratory">
                 </a>
               </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Python</li>
+                <li>Analyse de données</li>
+                <li>Visualisation</li>
               </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div> -->
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              </div>
+              <div class="work__image-box">
+                <img src="./images/eau.jpg" class="work__image" alt="Project 2" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
-<!-- 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section> -->
-
     <!-- ***** About ***** -->
 
-    <!-- <section class="about" id="about">
+    <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
+        <h2>A propos</h2>
         <div class="about__content">
           <div class="about__text">
-            Replace the below paragraph with info about yourself
+            <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Étudiante en Master Sciences des Données, je m’intéresse aux problématiques 
+              d’analyse de données, de compréhension de phénomènes complexes et de prise de décision.
+              <br><br>
+              Mon parcours académique m’a permis de travailler sur des projets mêlant 
+              programmation, analyse statistique et exploitation de données réelles.
+              Je souhaite aujourd’hui appliquer ces compétences dans un environnement professionnel stimulant.
             </p>
-            Provide a link to your resume
-            <a href="#" class="btn">My Resume</a>
+            <!-- Provide a link to your resume -->
+            <a href="CV_Zoe_Purson--Pasqualini.pdf" class="btn" target="_blank">Télécharger mon CV</a>
           </div>
 
           <div class="about__photo-container">
-            Add a nice photo of yourself
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/Moi.JPEG" alt="" />
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
   </main>
 
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
     <div class="row">
-      <h2>Get in Touch</h2>
+      <h2>Contact</h2>
       <div class="contact__info">
         <p>
-          Vous êtes à la recherche d'une stagiaire pour une durée de 6 mois pendant le premier semestre 2026 ? N'hésitez pas à me 
-          contacter à l'adresse mail suivante. 
-        </p>
+          Vous recherchez une stagiaire en <strong>data science / analyse de données</strong> 
+          pour un stage de fin d’études de 6 mois ?
+          <br>
+          Je serais ravie d’échanger avec vous.
+        </p> 
         <!-- Replace the email with yours -->
         <a href="mailto:zoe.purson@gmail.com" class="btn">zoe.purson@gmail.com</a>
       </div>
@@ -230,29 +191,6 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <!-- <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul> -->
 
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
